@@ -1,0 +1,13 @@
+<div>
+  <p> {{data.questionId}}. {{data.question}}</p>
+
+  <div *ngFor="let opt of data.options">
+    <input type="radio" id="{{opt.optionId}}" name="{{data.questionId}}" value="{{opt.score}}"  (change)="changeGender($event)">
+    <label for="{{opt.optionId}}">{{opt.option}}</label><br>
+  </div>
+
+  <input *ngIf="showTextField" type="text" placeholder="Please enter your input">
+
+  <textarea  *ngIf="!data.options"  placeholder="Please enter your input" maxlength="200"></textarea>
+
+</div>

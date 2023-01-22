@@ -1,0 +1,13 @@
+<div >
+  <form>
+  <ng-template appQuestionOptions></ng-template>
+
+
+
+  <input *ngIf="questionId < 11" type="button" value="Next" (click)="getQuestionAndOptions()">
+
+  <input  *ngIf="questionId == 11" type="button" value="Submit" (click)="getScore()">
+
+  </form>
+
+</div>
