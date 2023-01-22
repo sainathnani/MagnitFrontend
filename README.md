@@ -11,8 +11,8 @@ Code initially loads the first question and the form can be filled until you see
 The focus was on logic and loading Questions/Options dyncamically with little concentration on CSS.
 
 ## Tools and Platforms Used
-   Tools -  WebStorm
-   UI Framework - Angular
+   `Tools -  WebStorm, 
+   UI Framework - Angular`
   
 
 ## Development server
